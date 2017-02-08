@@ -8,3 +8,4 @@ python:
 
 script:
   - make test
+  - python setup.py
