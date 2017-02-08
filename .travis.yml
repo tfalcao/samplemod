@@ -1,12 +1,10 @@
 language: python
 
-before_install:
- - sudo apt-get update
-
-install:
-  - "pip install --pre -r requirements.txt"
+# install dependencies
+install: "pip install -r requirements.txt"
 
 python:
   - "2.7"
+
 script:
   - make test
